@@ -1,0 +1,22 @@
+{
+  "name": "xen-editor",
+  "version": "1.0.0",
+  "description": "A simple to use text editor!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e * --exec 'electron .'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeaserGaming/xen-editor.git"
+  },
+  "author": "Elias Hernandez, Luke Whrit, Logan Houston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CeaserGaming/xen-editor/issues"
+  },
+  "homepage": "https://github.com/CeaserGaming/xen-editor#readme",
+  "dependencies": {
+    "electron": "^3.0.10"
+  }
+}
