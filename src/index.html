@@ -7,16 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- /Meta -->
     <!-- CSS & JS -->
+    <script src="./js/apply_all.js"></script>
     <link rel="stylesheet" href="./css/all.css">
     <!-- /CSS & JS -->
 </head>
 
 <body>
+    <div id="titlebar">
+        <img id="titlebarlogo" src="./img/icons/Xen_Logo_No_Text_Transparent.png">
+        <div id="titlebaricons">
+            <a onclick="minimizeWindow();"><svg width="12" height="12" viewBox="0 0 12 12">
+                    <rect fill="#ffffff" width="10" height="1" x="1" y="6"></rect>
+                </svg>
+            </a>
+            <a onclick="maximizeWindow();"><svg width="12" height="12" viewBox="0 0 12 12">
+                    <rect width="9" height="9" x="1.5" y="1.5" fill="none" stroke="#ffffff"></rect>
+                </svg>
+            </a>
+            <a id="closer" onclick="closeWindow();"><svg width="12" height="12" viewBox="0 0 12 12">
+                    <polygon fill="#ffffff" fill-rule="evenodd" points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"></polygon>
+                </svg>
+            </a>
+        </div>
+    </div>
     <div class="sidebar" id="sidebar">
     </div>
     <div class="tabs" id="tabs">
     </div>
     <div class="content" id="content">
+        <textarea class="code" id="code"></textarea>
     </div>
 </body>
 
