@@ -5,8 +5,9 @@ html {
   margin: 0;
   padding: 0;
 }
-html {
-  height: 100%;
+html,
+body {
+  height: 100% !important;
 }
 #titlebar {
   -webkit-app-region: drag;
@@ -36,6 +37,9 @@ html {
 }
 #titlebaricons #closer:hover {
   background-color: rgba(255, 45, 45, 0.801);
+}
+.content {
+  height: calc(70%) !important;
 }
 .code {
   width: 100%;
