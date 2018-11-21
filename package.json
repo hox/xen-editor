@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/CeaserGaming/xen-editor/issues"
   },
-  "homepage": "https://github.com/CeaserGaming/xen-editor#readme",
+  "homepage": "https://xen.ceasergaming.com",
   "dependencies": {
     "electron": "^3.0.10"
   }
